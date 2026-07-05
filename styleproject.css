@@ -285,7 +285,7 @@ ul a {
     .box{
         width: 90%;
         height: auto;
-        margin-bottom:20px;
+        margin: 0 auto 20px auto;
     }
     .hero-section{
         background-size:cover;
@@ -299,12 +299,22 @@ ul a {
     }
     .nav-signin, .nav-return, .nav-cart{
         font-size: 0.8rem;
+        order: 2;
     }
     .navbar{
-        height:auto;
+        height:aut0;
+        display: flex;
         flex-wrap: wrap;
         padding: 10px;
-        justify-content: space-evenly;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+    .nav-cart{
+        display: flex;
+        align-items: center;
+        order: 1;
+        margin-right: auto;
+        font-size: 0.85px;
     }
     .nav-search{
         display: flex;
@@ -312,10 +322,10 @@ ul a {
         max-width: 100%;
         margin-top:10px;
         order:3;
-        height: 40px;
+        height: 42px;
     }
     .search-select{
-        width: 60px;
+        width: 65px;
     }
     .search-input{
         width: 100%;
@@ -324,18 +334,19 @@ ul a {
         font-size: 1rem;
     }
     .search-icon{
-        width:45px;
+        width:50px;
     }
     .foot-panel1, .foot-panel2, .foot-panel3, .foot-panel4, footer{
         height: auto;
-        padding: 20px 10px;
+        padding: 20px 15px;
+        display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        font-size: 0.8rem;
+        gap: 15px;
     }
     .copyright{
         margin-top: 20px;
-        line-height: 1.5;
+        line-height: 1.6;
     }
 }
