@@ -310,7 +310,6 @@ ul a {
         display: flex;
         flex-wrap: wrap;
         padding: 10px;
-        align-items: center;
         justify-content: space-between;
     }
     /* .nav-logo{
@@ -326,7 +325,7 @@ ul a {
     } */
     .nav-search{
         display: flex;
-        width:100px;
+        width:100%;
         max-width: 100%;
         order:3;
         margin-top: 10px;
