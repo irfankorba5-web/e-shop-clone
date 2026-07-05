@@ -283,9 +283,9 @@ ul a {
         align-items: center;
     }
     .box{
-        width: 90%;
+        width: 92%;
         height: auto;
-        margin: 0 auto 20px auto;
+        margin: 0 auto 15px auto;
     }
     .hero-section{
         background-size:cover;
@@ -297,24 +297,26 @@ ul a {
         height: auto;
         padding-bottom: 10px;
     }
-    .nav-signin{
-        font-size: 0.8rem;
-        order: 4;
+    #nav-logo,.nav-signin,.nav-return,.nav-cart, .nav-search{
+        order: unset;
     }
-    .nav-return{
-        order: 5;
-        font-size: 0.85rem;
+    .nav-return, .nav-return, .nav-cart{
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+    
     }
     .navbar{
         height:aut0;
         display: flex;
         flex-wrap: wrap;
         padding: 10px;
-        flex-direction: row;
-        gap: 10px;
+        justify-content: space-between;
+        padding: 8px;
+        gap: 8px;
     }
     .nav-logo{
-        order:1;
+      font-size: 0.85rem;
     }
     .nav-cart{
         display: flex;
@@ -327,33 +329,36 @@ ul a {
         display: flex;
         width:100px;
         max-width: 100%;
-        margin-top:5px;
+        margin-top:4px;
         order:6;
-        height: 42px;
+        height: 38px;
     }
     .search-select{
-        width: 60px;
+        width: auto;
+        max-width: 80px;
+        padding: 0 4px;
+        font-size: 0.85px;
     }
     .search-input{
         flex-grow:1;
         width: 100%;
-        padding:0 12px;
-        font-size: 1rem;
+        padding:0 8px;
+        font-size: o.95rem;
     }
     .search-icon{
-        width:50px;
+        width:42px;
     }
     .foot-panel1, .foot-panel2, .foot-panel3, .foot-panel4, footer{
         height: auto;
-        padding: 20px 15px;
+        padding: 15px 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 15px;
+        gap: 12px;
     }
     .copyright{
-        margin-top: 20px;
-        line-height: 1.6;
+        margin-top: 15px;
+        line-height: 1.5;
     }
 }
