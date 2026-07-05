@@ -304,16 +304,27 @@ ul a {
         height:auto;
         flex-wrap: wrap;
         padding: 10px;
-        gap: 8px;
+        justify-content: space-evenly;
     }
     .nav-search{
         display: flex;
         width:100px;
+        max-width: 100%;
         margin-top:10px;
         order:3;
+        height: 40px;
+    }
+    .search-select{
+        width: 60px;
     }
     .search-input{
         width: 100%;
+        width:100px;
+        padding:0 10px;
+        font-size: 1rem;
+    }
+    .search-icon{
+        width:45px;
     }
     .foot-panel1, .foot-panel2, .foot-panel3, .foot-panel4, footer{
         height: auto;
