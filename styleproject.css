@@ -299,12 +299,12 @@ ul a {
     }
     
     }
-    .nav-return, .nav-return, .nav-cart{
+    /* .nav-return, .nav-return, .nav-cart{
         font-size: 0.75rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
+    } */
     .navbar{
         height:aut0;
         display: flex;
@@ -313,17 +313,17 @@ ul a {
         align-items: center;
         justify-content: space-between;
     }
-    .nav-logo{
+    /* .nav-logo{
       display: flex;
       align-items: center;
-    }
-    .nav-cart{
+    } */
+    /* .nav-cart{
         display: flex;
         align-items: center;
         order: 2;
         margin-right: auto;
         font-size: 0.85px;
-    }
+    } */
     .nav-search{
         display: flex;
         width:100px;
