@@ -300,10 +300,20 @@ ul a {
     .nav-signin, .nav-return, .nav-cart{
         font-size: 0.8rem;
     }
+    .navbar{
+        height:auto;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 8px;
+    }
     .nav-search{
+        display: flex;
         width:100px;
         margin-top:10px;
         order:3;
+    }
+    .search-input{
+        width: 100%;
     }
     .foot-panel1, .foot-panel2, .foot-panel3, .foot-panel4, footer{
         height: auto;
@@ -311,6 +321,7 @@ ul a {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        font-size: 0.8rem;
     }
     .copyright{
         margin-top: 20px;
