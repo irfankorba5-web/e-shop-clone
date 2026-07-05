@@ -250,6 +250,7 @@ ul a {
 }
 
 .logo{
+    background-color: #0f1111;
      background-image:url(logo.png);
     background-size:cover;
     height:50px;
@@ -289,5 +290,30 @@ ul a {
     .hero-section{
         background-size:cover;
         height: 300px;
+    }
+    header, navbar{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .nav-signin, .nav-return, .nav-cart{
+        font-size: 0.8rem;
+    }
+    .nav-search{
+        width:100px;
+        margin-top:10px;
+        order:3;
+    }
+    .foot-panel1, .foot-panel2, .foot-panel3, .foot-panel4, footer{
+        height: auto;
+        padding: 20px 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .copyright{
+        margin-top: 20px;
+        line-height: 1.5;
     }
 }
